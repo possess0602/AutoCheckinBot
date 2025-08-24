@@ -1,0 +1,43 @@
+# Logs
+logs/
+*.log
+
+# Runtime files
+*.pid
+attendance_service.pid
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Cookie files (sensitive data)
+cookies.json
+
+# Configuration files (sensitive data)
+config.json
+
+# Alert files
+cookie_alert.txt
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~ 

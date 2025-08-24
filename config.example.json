@@ -1,0 +1,30 @@
+{
+  "authentication": {
+    "module_session_cookie": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImIxNjllZWZiYTU2MTBkZjAyNGVlNGYxMjcwMjQwOGMxIn0...",
+    "comment": "從瀏覽器開發者工具中複製 __ModuleSessionCookie 的值"
+  },
+  "work_schedule": {
+    "punch_in": {
+      "hour": 9,
+      "minute_range": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "punch_out": {
+      "hour": 18,
+      "minute_range": {
+        "min": 10,
+        "max": 30
+      }
+    },
+    "work_duration_hours": 9,
+    "comment": "上班時間隨機範圍和下班時間範圍設定"
+  },
+  "service_settings": {
+    "max_retries": 2,
+    "timeout_seconds": 30,
+    "check_interval_seconds": 30,
+    "workdays": ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  }
+}
